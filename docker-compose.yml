@@ -1,0 +1,7 @@
+version: '3'
+services:
+  infer_service:
+    image: harbor.uat.enflame.cc/library/enflame.cn/parse_agnostic:master
+    ports:
+      - "5004:5000"
+    restart: always
